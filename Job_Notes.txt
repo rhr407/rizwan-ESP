@@ -1,0 +1,71 @@
+Hi,
+
+In reading your Fiverr page it seems you may be capable of writing a sketch
+for which I'm hiring. This sketch is a very basic, simple web interface
+that saves user inputs to a .txt file. The webpape should be very simple as it only
+provides an example that will be improved later. This project uses an ESP8266 or ESP32
+and an SD micro read/write module such as seen here:
+
+https://goo.gl/GSTv2w
+
+The user input is stored to the SD card in a highly specific format. The following is
+an example of how it should work. Please review this with the provided picture
+for a better understanding.
+
+Option 1 will output to sd card txt file (named bingo.txt):
+"Selected 1"
+Option 2 will output to sd card txt file (named bingo.txt):
+"Selected 2"
+Option 3 will output to sd card txt file (named bingo.txt):
+"Selected 3"
+Option 4 will output to sd card txt file (named bingo.txt):
+"Selected 4"
+Option 5 will output to sd card txt file (named bingo.txt):
+"Selected 5"
+Text Field will output whatever the user writes into that field. For example,
+if the user types:
+"There are many variations of passages of Lorem Ipsum available, but the
+majority have suffered alteration in some form, by injected humour, or
+randomised words which don't look even slightly believable."
+in the .txt file should be saved as
+
+<text field>There are many variations of passages of Lorem Ipsum available, but the
+majority have suffered alteration in some form, by injected humour, or
+randomised words which don't look even slightly believable.</text field>
+
+Each time the test.txt file is written it should save and overwrite the existing test.txt file that has
+and save the new entries.
+
+For the examples shown above, the final text file should format like this:
+
+<option1>Selected 1</option1>
+<option2>Selected 2</option2>
+<option3>Selected 3</option3>
+<option4>Selected 4</option4>
+<option5>Selected 5</option5>
+<text field>There are many variations of passages of Lorem Ipsum available, but the
+majority have suffered alteration in some form, by injected humour, or
+randomised words which don't look even slightly believable.</text field>
+
+However, if the user does not select an option or the text field, it should not
+be saved to the .txt file. So, if the user selected 1, 3, and 5, the .txt would be
+like this:
+
+<option1>Selected 1</option1>
+<option3>Selected 3</option3>
+<option5>Selected 5</option5>
+
+When the user presses the "Submit" button on the page it should then overwrite the
+existing test.txt and save the entries as a new test.txt.
+
+In the code please include all necessary notation for libraries used, pin assignments,
+etc. and include the necessary configuration for using Wifi Manager.
+
+If you are interested, please respond with the amount of time this job would require and
+what day you can begin.
+
+Thank you kindly,
+Alan Minor
+
+Please comment the code to simplify this for updates later. The final sketch
+will use different options with this serving as a start point to learn from.
