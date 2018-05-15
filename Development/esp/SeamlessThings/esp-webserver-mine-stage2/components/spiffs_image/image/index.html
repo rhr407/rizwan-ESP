@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ESP32 WebSocket Test</title>
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+	
+		var WebSocket_connection;
+
+		
+	    if (!"WebSocket" in window){  
+			alert("WebSocket NOT supported by your Browser!");
+			$('#WebSocket_State').text("WebSocket NOT supported by your Browser!");			
+		}
+		
+		window.onbeforeunload = function() {
+			websocket.onclose = function () {}; // disable onclose handler first
+			websocket.close()
+		};
+				
+		function connect(){
+			WebSocket_connection = new WebSocket($('#websocket_address').val());
+
+			$('#WebSocket_State').html('<br><br>');
+
+			$('#WebSocket_State').text("Connecting");
+			
+			WebSocket_connection.onopen = function(){
+			  
+			  // $('#WebSocket_State').html('<input type="text" id="websocket_message" value="Data to be send"/><a href=\"javascript:WebSocketSend_LED_OFF()\">send WebSocket</a>');
+
+
+			  // $('#WebSocket_State').html('<br><div id="wsStatus">Websockets Connected</div><br><br> <div id="Click_on_LED">Click on LED below to switch ON/OFF </div><br> <img onclick="javascript:WebSocketSend_LED_OFF()"src="LED_is_ON.jpg" alt="LED_is_ON" width="50" height="50" align="middle"  >');
+
+			  $('#WebSocket_State').html('<br><div id="wsStatus">Websockets Connected</div><br><br> <div id="Firmware URL">Put Firmware URL Here: <input type="text" id="firmwareURL"value="http://192.168.43.89:9998/esp-websocket.bin"/><a href="javascript:connect()">Update Firmware</a></div><br> <img onclick="javascript:WebSocketSend_LED_OFF()"src="LED_is_ON.jpg" alt="LED_is_ON" width="50" height="50" align="middle"  >');
+
+
+			  
+
+
+			};
+		   
+			WebSocket_connection.onmessage = function (evt) {
+
+					 if(evt.data[0] == '1'){ 
+				  $('#WebSocket_State').html('<br><div id="wsStatus">Websockets Connected</div><br><br> <div id="Click_on_LED">Click on LED below to switch ON/OFF </div><br> <img  onclick="javascript:WebSocketSend_LED_OFF()"   src="LED_is_ON.jpg" alt="LED_is_ON" width="50"  height="50" align="middle" <br> ');
+				}
+
+					else
+					    if(evt.data[0] == '0'){ 
+					  $('#WebSocket_State').html('<br><div id="wsStatus">Websockets Connected</div><br><br> <div id="Click_on_LED">Click on LED below to switch ON/OFF </div><br> <img onclick="javascript:WebSocketSend_LED_ON() "src="LED_is_OFF.jpg" alt="LED_is_OFF" width="50" height="50" align="middle"  >');
+
+
+					}
+					
+
+
+				//read data and append it to output_div
+				$( "#output_div" ).append( evt.data + "<br>" );	
+			};
+
+			WebSocket_connection.onerror = function()
+			{
+				$('#WebSocket_State').text("Error,...  connection closed");
+			};
+			
+			WebSocket_connection.onclose = function()
+			{ 
+				$('#WebSocket_State').text("Disconnected");
+			};
+		}
+			
+				
+        function WebSocketSend_LED_ON(){
+        	var obj = { "name":"John", 
+        				"age":30, 
+        				"city":"New York"
+        			  };
+        			  
+			var myJSON = JSON.stringify(obj);
+			// document.getElementById("demo").innerHTML = myJSON;
+			WebSocket_connection.send(myJSON);
+        }
+        function WebSocketSend_LED_OFF(){
+			WebSocket_connection.send('0');        
+		}
+
+		
+      </script>
+		
+   </head>
+   <body>
+
+   	 <div class="content">
+    <h1>Mongoose Library Websocket PubSub Demonstration on ESP32 running ESP-IDF</h1>
+
+    <p4>
+      This page demonstrates how Mongoose could be used to implement
+      <a href="http://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern">
+       publish–subscribe pattern</a> by controlling the onboard blue LED on GPIO2 of ESP32 on <a href="https://github.com/SmartArduino/ESP/blob/master/SchematicsforESP32.pdf">
+       DOIT ESP32 V1 Kit</a>. The blue LED switching is also being controlled by an onboard BOOT button which also updates the status of LED on this webpage. Please change values of GPIOs for LED and button for your own ESP32 kit in the main.h file given within the code.
+       <!-- <script type="text/javascript">connect();</script> -->
+    </p4>
+    <br>
+
+	<div id="WebSocket_State">
+		WebSocket Server: 
+		<input type="text" id="websocket_address" value="ws://192.168.43.89:9998"/>
+		<a href="javascript:connect()">Connect</a>
+	</div>
+
+	
+
+	<br>
+<!-- 
+	<p>
+		<button id="send_button">LED ON/OFF</button>
+    </p> -->
+
+	<br><br>
+
+   </body>
+
+  <style type="text/css">
+    body {
+      background-color: #789; margin: 0;
+      padding: 0; font: 14px Helvetica, Arial, sans-serif;
+    }
+    div.content {
+      width: 800px; margin: 2em auto; padding: 20px 50px;
+      background-color: #fff; border-radius: 1em;
+    }
+    #messages {
+      border: 2px solid #fec; border-radius: 1em;
+      height: 10em; overflow: scroll; padding: 0.5em 1em;
+    }
+
+    #wsStatus {
+      color: #008000;
+    }
+
+    #send_button{
+    	
+    	height: 3.5em;
+    }
+	#LED_Stat{
+
+		color: #32CD32;
+    	background-color: #123;
+    }
+    #LED_is_ON{
+    	width: "500";
+    	height: "600";
+    }
+    #Click_on_LED{
+    	color: #32C;
+    }
+
+
+    a:link, a:visited { color: #69c; text-decoration: none; }
+    @media (max-width: 700px) {
+      body { background-color: #fff; }
+      div.content {
+        width: auto; margin: 0 auto; border-radius: 0;
+        padding: 1em;
+      }
+    }
+</style>   
+</html>

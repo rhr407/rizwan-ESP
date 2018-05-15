@@ -1,0 +1,6 @@
+gcc:
+xtensa-esp32-elf-gcc -mlongcalls -I/d/Source/esp/esp-idf/components/vfs/include -I/d/Source/esp/esp-idf/components/lwip/include/lwip  -I/d/Source/esp/esp-idf/components/lwip/include/lwip/port -I/d/Source/esp/esp-idf/components/esp32/include -I/d/Source/esp/webserver/build/include -I /d/Source/esp/esp-idf/components/freertos/include -I/d/Source/esp/esp-idf/components/soc/esp32/include -DESP_PLATFORM=1 -DMG_ENABLE_HTTP=1 -DMG_ENABLE_FILESYSTEM=1 -c mongoose.c -o mongoose.o
+
+ar:
+xtensa-esp32-elf-ar -rcs libmongoose.a mongoose.o
+

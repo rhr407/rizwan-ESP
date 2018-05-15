@@ -1,0 +1,49 @@
+menu "Wifi Configuration"
+
+config WIFI_SSID
+    string "WiFi SSID"
+    default "SSID"
+    help
+	SSID (network name) for the example to connect to.
+
+config WIFI_PASSWORD
+    string "WiFi Password"
+    default "password"
+    help
+	WiFi password (WPA or WPA2) for the example to use.
+
+endmenu
+
+menu "Mongoose Settings"
+
+config MG_LISTEN_ADDR
+    string "Mongoose HTTP Listen Port"
+    default "9998"
+    help
+	Mongoose HTTP Listen Port for running mongoose HTTP server
+
+endmenu
+
+menu "GPIO Settings"
+
+config LED_GPIO
+    int "GPOI port for LED"
+    range 0 20
+    default 2
+    help
+	GPOI port for LED
+
+config BUTTON_GPIO
+    int "GPOI port for Button"
+    range 0 20
+    default 0
+    help
+	GPOI port for Button
+
+config ESP_INTR_FLAG_DEFAULT
+    int "ESP_INTR_FLAG_DEFAULT"
+    range 0 20
+    default 0
+    help
+	ESP_INTR_FLAG_DEFAULT
+endmenu

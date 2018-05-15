@@ -1,0 +1,237 @@
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:5868
+load:0x40078000,len:0
+load:0x40078000,len:14324
+entry 0x40078620
+I (28) boot: ESP-IDF v3.1-dev-957-g139a8a27-dirty 2nd stage bootloader
+I (29) boot: compile time 01:40:48
+I (30) boot: Enabling RNG early entropy source...
+I (35) boot: SPI Speed      : 40MHz
+I (39) boot: SPI Mode       : DIO
+I (43) boot: SPI Flash Size : 4MB
+I (48) boot: Partition Table:
+I (51) boot: ## Label            Usage          Type ST Offset   Length
+I (58) boot:  0 nvs              WiFi data        01 02 00009000 00004000
+I (66) boot:  1 otadata          OTA data         01 00 0000d000 00002000
+I (73) boot:  2 phy_init         RF data          01 01 0000f000 00001000
+I (81) boot:  3 factory          factory app      00 00 00010000 00100000
+I (88) boot:  4 ota_0            OTA app          00 10 00110000 00100000
+I (96) boot:  5 ota_1            OTA app          00 11 00210000 00100000
+I (103) boot:  6 mfi_p            Unknown data     01 82 00310000 00001000
+I (111) boot:  7 storage          Unknown data     01 82 00311000 0007d000
+I (118) boot: End of partition table
+I (123) boot: Defaulting to factory image
+I (127) esp_image: segment 0: paddr=0x00010020 vaddr=0x3f400020 size=0x14de0 ( 85472) map
+I (166) esp_image: segment 1: paddr=0x00024e08 vaddr=0x3ffb0000 size=0x03860 ( 14432) load
+I (172) esp_image: segment 2: paddr=0x00028670 vaddr=0x40080000 size=0x00400 (  1024) load
+0x40080000: _iram_start at /mnt/0e474266-d3ad-4927-9269-607231afb799/GoogleDrive/InProg/Freelancing/Development/esp/esp-idf/components/freertos/xtensa_vectors.S:1685
+
+I (173) esp_image: segment 3: paddr=0x00028a78 vaddr=0x40080400 size=0x07598 ( 30104) load
+I (194) esp_image: segment 4: paddr=0x00030018 vaddr=0x400d0018 size=0x703a4 (459684) map
+0x400d0018: _stext at ??:?
+
+I (356) esp_image: segment 5: paddr=0x000a03c4 vaddr=0x40087998 size=0x084a8 ( 33960) load
+0x40087998: ppTxPkt at ??:?
+
+I (370) esp_image: segment 6: paddr=0x000a8874 vaddr=0x400c0000 size=0x00000 (     0) load
+I (380) boot: Loaded app from partition at offset 0x10000
+I (380) boot: Disabling RNG early entropy source...
+I (382) cpu_start: Pro cpu up.
+I (385) cpu_start: Starting app cpu, entry point is 0x40080fdc
+0x40080fdc: call_start_cpu1 at /mnt/0e474266-d3ad-4927-9269-607231afb799/GoogleDrive/InProg/Freelancing/Development/esp/esp-idf/components/esp32/cpu_start.c:224
+
+I (378) cpu_start: App cpu up.
+I (396) heap_init: Initializing. RAM available for dynamic allocation:
+I (403) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+I (409) heap_init: At 3FFB9418 len 00026BE8 (154 KiB): DRAM
+I (415) heap_init: At 3FFE0440 len 00003BC0 (14 KiB): D/IRAM
+I (421) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (428) heap_init: At 4008FE40 len 000101C0 (64 KiB): IRAM
+I (434) cpu_start: Pro cpu start user code
+I (117) cpu_start: Starting scheduler on PRO CPU.
+I (0) cpu_start: Starting scheduler on APP CPU.
+I (167) wifi: wifi firmware version: c25fd80
+I (177) wifi: config NVS flash: enabled
+I (177) wifi: config nano formating: disabled
+I (177) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE
+I (187) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE
+I (207) wifi: Init dynamic tx buffer num: 32
+I (207) wifi: Init data frame dynamic rx buffer num: 32
+I (207) wifi: Init management frame dynamic rx buffer num: 32
+I (217) wifi: wifi driver task: 3ffc0a08, prio:23, stack:4096
+I (217) wifi: Init static rx buffer num: 10
+I (227) wifi: Init dynamic rx buffer num: 32
+I (297) phy: phy_version: 386.0, 67c798f, Mar 14 2018, 16:34:06, 0, 0
+I (297) wifi: mode : sta (30:ae:a4:05:17:c4)
+I (307) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+I (307) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:1 
+Starting web-server on port 9998
+I (327) [SPIFFS]: Registering SPIFFS file system
+I (327) [SPIFFS]: Mounting SPIFFS files system
+I (327) [SPIFFS]: Start address: 0x311000; Size 512 KB
+I (337) [SPIFFS]:   Work buffer: 2048 B
+I (337) [SPIFFS]:    FDS buffer: 384 B
+I (347) [SPIFFS]:    Cache size: 2048 B
+I (377) [SPIFFS]: Mounted
+I (377) esp-webserver:: ==== spiffs mounted .... ====
+
+I (1627) wifi: n:11 0, o:1 0, ap:255 255, sta:11 0, prof:1
+I (2617) wifi: state: init -> auth (b0)
+LIST of DIR [/spiffs/]
+T  Size      Date/Time         Name
+-----------------------------------
+d         -  01/01/1970 00:00  /spiffs
+I (2617) wifi: state: auth -> assoc (0)
+f         0  01/01/1970 00:00  LED_is_ON.jpg
+f         0  01/01/1970 00:00  LED_is_OFF.jpg
+f         0  01/01/1970 00:00  index.html
+I (2637) wifi: state: assoc -> run (10)
+I (2657) wifi: connected with Infinix Zero 4 Plus, channel 11
+I (2657) wifi: pm start, type: 1
+
+-----------------------------------
+SPIFFS: free 423 KB of 471 KB
+
+I (3627) event: sta ip: 192.168.43.89, mask: 255.255.255.0, gw: 192.168.43.1
+Default case occurred
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+ets Jun  8 2016 00:22:57
+
+rst:0x10 (RTCWDT_RTC_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:5868
+load:0x40078000,len:0
+load:0x40078000,len:14324
+entry 0x40078620
+I (29) boot: ESP-IDF v3.1-dev-957-g139a8a27-dirty 2nd stage bootloader
+I (29) boot: compile time 01:40:48
+I (30) boot: Enabling RNG early entropy source...
+I (35) boot: SPI Speed      : 40MHz
+I (39) boot: SPI Mode       : DIO
+I (43) boot: SPI Flash Size : 4MB
+I (47) boot: Partition Table:
+I (51) boot: ## Label            Usage          Type ST Offset   Length
+I (58) boot:  0 nvs              WiFi data        01 02 00009000 00004000
+I (66) boot:  1 otadata          OTA data         01 00 0000d000 00002000
+I (73) boot:  2 phy_init         RF data          01 01 0000f000 00001000
+I (81) boot:  3 factory          factory app      00 00 00010000 00100000
+I (88) boot:  4 ota_0            OTA app          00 10 00110000 00100000
+I (95) boot:  5 ota_1            OTA app          00 11 00210000 00100000
+I (103) boot:  6 mfi_p            Unknown data     01 82 00310000 00001000
+I (110) boot:  7 storage          Unknown data     01 82 00311000 0007d000
+I (118) boot: End of partition table
+I (122) boot: Defaulting to factory image
+I (127) esp_image: segment 0: paddr=0x00010020 vaddr=0x3f400020 size=0x14de0 ( 85472) map
+I (166) esp_image: segment 1: paddr=0x00024e08 vaddr=0x3ffb0000 size=0x03860 ( 14432) load
+I (172) esp_image: segment 2: paddr=0x00028670 vaddr=0x40080000 size=0x00400 (  1024) load
+0x40080000: _iram_start at /mnt/0e474266-d3ad-4927-9269-607231afb799/GoogleDrive/InProg/Freelancing/Development/esp/esp-idf/components/freertos/xtensa_vectors.S:1685
+
+I (173) esp_image: segment 3: paddr=0x00028a78 vaddr=0x40080400 size=0x07598 ( 30104) load
+I (194) esp_image: segment 4: paddr=0x00030018 vaddr=0x400d0018 size=0x703a4 (459684) map
+0x400d0018: _stext at ??:?
+
+I (355) esp_image: segment 5: paddr=0x000a03c4 vaddr=0x40087998 size=0x084a8 ( 33960) load
+0x40087998: ppTxPkt at ??:?
+
+I (370) esp_image: segment 6: paddr=0x000a8874 vaddr=0x400c0000 size=0x00000 (     0) load
+I (380) boot: Loaded app from partition at offset 0x10000
+I (380) boot: Disabling RNG early entropy source...
+I (382) cpu_start: Pro cpu up.
+I (385) cpu_start: Starting app cpu, entry point is 0x40080fdc
+0x40080fdc: call_start_cpu1 at /mnt/0e474266-d3ad-4927-9269-607231afb799/GoogleDrive/InProg/Freelancing/Development/esp/esp-idf/components/esp32/cpu_start.c:224
+
+I (0) cpu_start: App cpu up.
+I (396) heap_init: Initializing. RAM available for dynamic allocation:
+I (402) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+I (408) heap_init: At 3FFB9418 len 00026BE8 (154 KiB): DRAM
+I (415) heap_init: At 3FFE0440 len 00003BC0 (14 KiB): D/IRAM
+I (421) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (427) heap_init: At 4008FE40 len 000101C0 (64 KiB): IRAM
+I (434) cpu_start: Pro cpu start user code
+I (116) cpu_start: Starting scheduler on PRO CPU.
+I (0) cpu_start: Starting scheduler on APP CPU.
+I (167) wifi: wifi firmware version: c25fd80
+I (177) wifi: config NVS flash: enabled
+I (177) wifi: config nano formating: disabled
+I (177) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE
+I (187) system_api: Base MAC address is not set, read default base MAC address from BLK0 of EFUSE
+I (207) wifi: Init dynamic tx buffer num: 32
+I (207) wifi: Init data frame dynamic rx buffer num: 32
+I (207) wifi: Init management frame dynamic rx buffer num: 32
+I (217) wifi: wifi driver task: 3ffc0a08, prio:23, stack:4096
+I (217) wifi: Init static rx buffer num: 10
+I (227) wifi: Init dynamic rx buffer num: 32
+I (297) phy: phy_version: 386.0, 67c798f, Mar 14 2018, 16:34:06, 0, 0
+I (297) wifi: mode : sta (30:ae:a4:05:17:c4)
+I (307) gpio: GPIO[2]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 
+I (307) gpio: GPIO[0]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:1 
+Starting web-server on port 9998
+I (327) [SPIFFS]: Registering SPIFFS file system
+I (327) [SPIFFS]: Mounting SPIFFS files system
+I (327) [SPIFFS]: Start address: 0x311000; Size 512 KB
+I (337) [SPIFFS]:   Work buffer: 2048 B
+I (337) [SPIFFS]:    FDS buffer: 384 B
+I (347) [SPIFFS]:    Cache size: 2048 B
+I (377) [SPIFFS]: Mounted
+I (377) esp-webserver:: ==== spiffs mounted .... ====
+
+I (1627) wifi: n:11 0, o:1 0, ap:255 255, sta:11 0, prof:1
+I (2617) wifi: state: init -> auth (b0)
+LIST of DIR [/spiffs/]
+T  Size      Date/Time         Name
+-----------------------------------
+d         -  01/01/1970 00:00  /spiffs
+I (2617) wifi: state: auth -> assoc (0)
+f         0  01/01/1970 00:00  LED_is_ON.jpg
+f         0  01/01/1970 00:00  LED_is_OFF.jpg
+f         0  01/01/1970 00:00  index.html
+I (2637) wifi: state: assoc -> run (10)
+-----------------------------------
+SPIFFS: free 423 KB of 471 KB
+
+I (2657) wifi: connected with Infinix Zero 4 Plus, channel 11
+I (2657) wifi: pm start, type: 1
+
+I (3627) event: sta ip: 192.168.43.89, mask: 255.255.255.0, gw: 192.168.43.1
+Default case occurred
+Default case occurred
+Default case occurred
+192.168.43.197:48302 ++ joined
+Default case occurred
+Default case occurred
+Default case occurred
+
+++++++++++++++++++++++++++++
+
+++++++++++++++++++++++++++++
+Here is the Problem !!!!!!!!!!!!!!!!!
+***ERROR*** A stack overflow in task main has been detected.
+abort() was called at PC 0x4008df18 on core 0
+0x4008df18: vApplicationStackOverflowHook at /mnt/0e474266-d3ad-4927-9269-607231afb799/GoogleDrive/InProg/Freelancing/Development/esp/esp-idf/components/esp32/panic.c:648
+
+
+Backtrace: 0x4008dd28:0x3ffba140 0x4008deff:0x3ffba160 0x4008df18:0x3ffba180 0x4008b9f7:0x3ffba1a0 0x4008d05c:0x3ffba1c0 0x4008d012:0x00000000
+0x4008dd28: invoke_abort at /mnt/0e474266-d3ad-4927-9269-607231afb799/GoogleDrive/InProg/Freelancing/Development/esp/esp-idf/components/esp32/panic.c:648
+
+0x4008deff: abort at /mnt/0e474266-d3ad-4927-9269-607231afb799/GoogleDrive/InProg/Freelancing/Development/esp/esp-idf/components/esp32/panic.c:648
+
+0x4008df18: vApplicationStackOverflowHook at /mnt/0e474266-d3ad-4927-9269-607231afb799/GoogleDrive/InProg/Freelancing/Development/esp/esp-idf/components/esp32/panic.c:648
+
+0x4008b9f7: vTaskSwitchContext at /mnt/0e474266-d3ad-4927-9269-607231afb799/GoogleDrive/InProg/Freelancing/Development/esp/esp-idf/components/freertos/tasks.c:4574
+
+0x4008d05c: _frxt_dispatch at /mnt/0e474266-d3ad-4927-9269-607231afb799/GoogleDrive/InProg/Freelancing/Development/esp/esp-idf/components/freertos/portasm.S:406
+
+0x4008d012: _frxt_int_exit at /mnt/0e474266-d3ad-4927-9269-607231afb799/GoogleDrive/InProg/Freelancing/Development/esp/esp-idf/components/freertos/portasm.S:206
+
+
+Rebooting...
+ets Jun  8 2016 00:22:57

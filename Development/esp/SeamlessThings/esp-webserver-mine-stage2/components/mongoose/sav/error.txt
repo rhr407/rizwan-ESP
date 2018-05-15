@@ -1,0 +1,428 @@
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `cs_log_print_prefix':
+mongoose.c:(.text+0xe): dangerous relocation: call8: call target out of range: strncpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `cs_log_printf':
+mongoose.c:(.text+0x87): dangerous relocation: call8: call target out of range: fflush
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `cs_base64_finish':
+mongoose.c:(.text+0x271): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `MD5_Update':
+mongoose.c:(.text+0xff1): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0xfff): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x103b): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x1076): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `MD5_Final':
+mongoose.c:(.text+0x10bd): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x10e5): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x10f7): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x1142): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x114b): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mbuf_free':
+mongoose.c:(.text+0x1247): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mbuf_resize':
+mongoose.c:(.text+0x1285): dangerous relocation: call8: call target out of range: realloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mbuf_insert':
+mongoose.c:(.text+0x136e): dangerous relocation: call8: call target out of range: memmove
+mongoose.c:(.text+0x1383): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x13cd): dangerous relocation: call8: call target out of range: realloc
+mongoose.c:(.text+0x1401): dangerous relocation: call8: call target out of range: memmove
+mongoose.c:(.text+0x1416): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mbuf_remove':
+mongoose.c:(.text+0x1489): dangerous relocation: call8: call target out of range: memmove
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_mk_str':
+mongoose.c:(.text+0x14b6): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x14c9): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_mk_str_n':
+mongoose.c:(.text+0x14fd): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_vcmp':
+mongoose.c:(.text+0x151f): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x153b): dangerous relocation: call8: call target out of range: memcmp
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_vcasecmp':
+mongoose.c:(.text+0x155f): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_strdup':
+mongoose.c:(.text+0x15b2): dangerous relocation: call8: call target out of range: malloc
+mongoose.c:(.text+0x15ca): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x15dd): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_strncmp':
+mongoose.c:(.text+0x1689): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x169a): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `cs_sha1_transform':
+mongoose.c:(.text+0x172d): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x2ee9): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `cs_sha1_update':
+mongoose.c:(.text+0x2fb1): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x3012): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `cs_sha1_final':
+mongoose.c:(.text+0x30fa): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x3105): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `cs_hmac_sha1':
+mongoose.c:(.text+0x3162): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x3171): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x317f): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x318f): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `c_strnstr':
+mongoose.c:(.text+0x3b35): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x3b5d): dangerous relocation: call8: call target out of range: strncmp
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_avprintf':
+mongoose.c:(.text+0x3d91): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x3dbf): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x3dcb): dangerous relocation: call8: call target out of range: malloc
+mongoose.c:(.text+0x3dea): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x3e17): dangerous relocation: call8: call target out of range: malloc
+mongoose.c:(.text+0x3e3e): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_destroy_conn':
+mongoose.c:(.text+0x41d1): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x41d6): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_mgr_init':
+mongoose.c:(.text+0x424e): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_mgr_init_opt':
+mongoose.c:(.text+0x4279): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x42a9): dangerous relocation: call8: call target out of range: malloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_mgr_free':
+mongoose.c:(.text+0x43d3): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x43ed): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_vprintf':
+mongoose.c:(.text+0x44c2): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_create_connection_base':
+mongoose.c:(.text+0x451a): dangerous relocation: call8: call target out of range: calloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_create_connection':
+mongoose.c:(.text+0x45cd): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_parse_address':
+mongoose.c:(.text+0x4606): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x461f): dangerous relocation: call8: call target out of range: strncmp
+mongoose.c:(.text+0x463f): dangerous relocation: call8: call target out of range: strncmp
+mongoose.c:(.text+0x46b7): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_if_accept_new_conn':
+mongoose.c:(.text+0x47b7): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_if_accept_tcp_cb':
+mongoose.c:(.text+0x487a): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_recv_common':
+mongoose.c:(.text+0x49a9): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x4a1b): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_if_recv_udp_cb':
+mongoose.c:(.text+0x4ace): dangerous relocation: call8: call target out of range: memcmp
+mongoose.c:(.text+0x4b05): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x4b47): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x4bcb): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_connect':
+mongoose.c:(.text+0x4dd4): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x4de4): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_connect_opt':
+mongoose.c:(.text+0x4e16): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x4ec0): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x4ef1): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x4f64): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_bind':
+mongoose.c:(.text+0x4f74): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_bind_opt':
+mongoose.c:(.text+0x4fa6): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x501d): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x5091): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_add_sock_opt':
+mongoose.c:(.text+0x5451): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_add_sock':
+mongoose.c:(.text+0x5461): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x5491): dangerous relocation: call8: call target out of range: calloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_write_to_socket':
+mongoose.c:(.text+0x5a5e): dangerous relocation: call8: call target out of range: malloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_handle_tcp_read':
+mongoose.c:(.text+0x5ade): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x5b29): dangerous relocation: call8: call target out of range: malloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_recvfrom':
+mongoose.c:(.text+0x5baa): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_socket_if_poll':
+mongoose.c:(.text+0x6297): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_parse_uri':
+mongoose.c:(.text+0x66c6): dangerous relocation: call8: call target out of range: strncmp
+mongoose.c:(.text+0x6851): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x6869): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x6881): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x68a5): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x68bd): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x68d3): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_normalize_uri_path':
+mongoose.c:(.text+0x69a2): dangerous relocation: call8: call target out of range: memmove
+mongoose.c:(.text+0x69fe): dangerous relocation: call8: call target out of range: calloc
+mongoose.c:(.text+0x6a33): dangerous relocation: call8: call target out of range: fclose
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_get_proto_data':
+mongoose.c:(.text+0x6a3d): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x6a61): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x6a66): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_free_reverse_proxy_data':
+mongoose.c:(.text+0x6aea): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x6b01): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_get_mime_type':
+mongoose.c:(.text+0x6b41): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x6be7): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x6bfd): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x6c29): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x6c3e): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_parse_headers':
+mongoose.c:(.text+0x6e5f): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_parse_http':
+mongoose.c:(.text+0x6f25): dangerous relocation: call8: call target out of range: memchr
+mongoose.c:(.text+0x6f97): dangerous relocation: call8: call target out of range: atoi
+mongoose.c:(.text+0x702f): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_handle_chunked':
+mongoose.c:(.text+0x73e1): dangerous relocation: call8: call target out of range: memmove
+mongoose.c:(.text+0x7477): dangerous relocation: call8: call target out of range: memmove
+mongoose.c:(.text+0x7497): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x74f1): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0x7507): dangerous relocation: call8: call target out of range: memmove
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_send_redirect':
+mongoose.c:(.text+0x7b2a): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x7b4a): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_send_head':
+mongoose.c:(.text+0x7be3): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_send_error':
+mongoose.c:(.text+0x7c02): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x7c65): dangerous relocation: call8: call target out of range: gmtime
+mongoose.c:(.text+0x7c75): dangerous relocation: call8: call target out of range: strftime
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_construct_etag':
+mongoose.c:(.text+0x7c8f): dangerous relocation: call8: call target out of range: malloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_gmt_time_string':
+mongoose.c:(.text+0x7cae): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_parse_range_header':
+mongoose.c:(.text+0x7cd1): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_serve_file':
+mongoose.c:(.text+0x8093): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_serve_file2':
+mongoose.c:(.text+0x80e6): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_url_decode':
+mongoose.c:(.text+0x8308): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_get_http_var':
+mongoose.c:(.text+0x8375): dangerous relocation: call8: call target out of range: memchr
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_printf_http_chunk':
+mongoose.c:(.text+0x8486): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_printf_html_escape':
+mongoose.c:(.text+0x8583): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x85a7): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_parse_header':
+mongoose.c:(.text+0x8632): dangerous relocation: call8: call target out of range: strncmp
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_get_http_basic_auth':
+mongoose.c:(.text+0x87e9): dangerous relocation: call8: call target out of range: malloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_parse_http_basic_auth':
+mongoose.c:(.text+0x883f): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x8863): dangerous relocation: call8: call target out of range: strrchr
+mongoose.c:(.text+0x887e): dangerous relocation: call8: call target out of range: strcmp
+mongoose.c:(.text+0x888e): dangerous relocation: call8: call target out of range: strcmp
+mongoose.c:(.text+0x889b): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_is_file_hidden':
+mongoose.c:(.text+0x88ad): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x88be): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_mkmd5resp':
+mongoose.c:(.text+0x89df): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x89ed): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x89fa): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_create_digest_auth_header':
+mongoose.c:(.text+0x8a2f): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x8a37): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x8a42): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x8a51): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x8adb): dangerous relocation: call8: call target out of range: strtoul
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_check_digest_auth':
+mongoose.c:(.text+0x8c51): dangerous relocation: call8: call target out of range: strcmp
+mongoose.c:(.text+0x8c66): dangerous relocation: call8: call target out of range: strcmp
+mongoose.c:(.text+0x8ca2): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x8cb2): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x8cc2): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x8cd2): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x8ce3): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_is_authorized':
+mongoose.c:(.text+0x8e43): dangerous relocation: call8: call target out of range: strrchr
+mongoose.c:(.text+0x8eb9): dangerous relocation: call8: call target out of range: fclose
+mongoose.c:(.text+0x8f19): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x8f3f): dangerous relocation: call8: call target out of range: realloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_find_index_file':
+mongoose.c:(.text+0x8fa1): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x8fd6): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_uri_to_local_path':
+mongoose.c:(.text+0x90c5): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x9125): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x9156): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x9195): dangerous relocation: call8: call target out of range: malloc
+mongoose.c:(.text+0x91ce): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x927b): dangerous relocation: call8: call target out of range: memmove
+mongoose.c:(.text+0x938a): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x9401): dangerous relocation: call8: call target out of range: strcmp
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_send_http_file':
+mongoose.c:(.text+0x975d): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x9815): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x9836): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x9961): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_serve_http':
+mongoose.c:(.text+0x9a56): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x9ab2): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x9abd): dangerous relocation: call8: call target out of range: strncmp
+mongoose.c:(.text+0x9ac6): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x9ad6): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x9ae1): dangerous relocation: call8: call target out of range: strncmp
+mongoose.c:(.text+0x9aeb): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_http_common_url_parse':
+mongoose.c:(.text+0x9b0f): dangerous relocation: call8: call target out of range: realloc
+mongoose.c:(.text+0x9c2e): dangerous relocation: call8: call target out of range: malloc
+mongoose.c:(.text+0x9c4a): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x9c63): dangerous relocation: call8: call target out of range: malloc
+mongoose.c:(.text+0x9c8d): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0x9cc1): dangerous relocation: call8: call target out of range: memmove
+mongoose.c:(.text+0x9cf9): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_connect_http_base':
+mongoose.c:(.text+0x9d9a): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x9da9): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x9db3): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x9dce): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_connect_http_opt':
+mongoose.c:(.text+0x9ea9): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0x9f0f): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x9f16): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x9f1d): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0x9f3d): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_parse_multipart':
+mongoose.c:(.text+0xa07b): dangerous relocation: call8: call target out of range: strncmp
+mongoose.c:(.text+0xa0e5): dangerous relocation: call8: call target out of range: calloc
+mongoose.c:(.text+0xa0f9): dangerous relocation: call8: call target out of range: strdup
+mongoose.c:(.text+0xa10a): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_do_ssi_include':
+mongoose.c:(.text+0xa236): dangerous relocation: call8: call target out of range: strrchr
+mongoose.c:(.text+0xa24f): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xa262): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xa2e8): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xa329): dangerous relocation: call8: call target out of range: fclose
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_send_ssi_file':
+mongoose.c:(.text+0xa405): dangerous relocation: call8: call target out of range: strncmp
+mongoose.c:(.text+0xa443): dangerous relocation: call8: call target out of range: strncmp
+mongoose.c:(.text+0xa456): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0xa511): dangerous relocation: call8: call target out of range: strncmp
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_handle_ssi_request':
+mongoose.c:(.text+0xa63b): dangerous relocation: call8: call target out of range: fclose
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_deliver_websocket_data':
+mongoose.c:(.text+0xaad5): dangerous relocation: call8: call target out of range: memmove
+mongoose.c:(.text+0xab7d): dangerous relocation: call8: call target out of range: rand
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_ws_random_mask':
+mongoose.c:(.text+0xabfb): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_send_ws_header':
+mongoose.c:(.text+0xac2e): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0xac47): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_send_websocket_framev':
+mongoose.c:(.text+0xae9a): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_send_websocket_handshake':
+mongoose.c:(.text+0xb1a3): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_connect_ws_opt':
+mongoose.c:(.text+0xb1aa): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0xb1b1): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0xb1d1): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0xb221): dangerous relocation: call8: call target out of range: strchr
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_connect_ws':
+mongoose.c:(.text+0xb252): dangerous relocation: call8: call target out of range: strchr
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_skip':
+mongoose.c:(.text+0xb2cd): dangerous relocation: call8: call target out of range: open
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_stat':
+mongoose.c:(.text+0xb332): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_base64_encode':
+mongoose.c:(.text+0xb365): dangerous relocation: call8: call target out of range: strncpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_base64_decode':
+mongoose.c:(.text+0xb389): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_sock_addr_to_str':
+mongoose.c:(.text+0xb3ff): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_hexdumpf':
+mongoose.c:(.text+0xb67f): dangerous relocation: call8: call target out of range: strcmp
+mongoose.c:(.text+0xb686): dangerous relocation: call8: call target out of range: __getreent
+mongoose.c:(.text+0xb69e): dangerous relocation: call8: call target out of range: strcmp
+mongoose.c:(.text+0xb6a5): dangerous relocation: call8: call target out of range: __getreent
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_hexdump_connection':
+mongoose.c:(.text+0xb75a): dangerous relocation: call8: call target out of range: malloc
+mongoose.c:(.text+0xb77b): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0xb77e): dangerous relocation: call8: call target out of range: __getreent
+mongoose.c:(.text+0xb78b): dangerous relocation: call8: call target out of range: __getreent
+mongoose.c:(.text+0xb799): dangerous relocation: call8: call target out of range: fclose
+mongoose.c:(.text+0xb7e7): dangerous relocation: call8: call target out of range: strchr
+mongoose.c:(.text+0xb812): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_is_big_endian':
+mongoose.c:(.text+0xb843): dangerous relocation: call8: call target out of range: memchr
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_next_comma_list_entry':
+mongoose.c:(.text+0xb8b1): dangerous relocation: call8: call target out of range: memchr
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_match_prefix':
+mongoose.c:(.text+0xbb02): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_get_errno':
+mongoose.c:(.text+0xbb12): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_mbuf_append_base64_putc':
+mongoose.c:(.text+0xbb36): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_mbuf_append_base64':
+mongoose.c:(.text+0xbb4f): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `parse_mqtt':
+mongoose.c:(.text+0xbefa): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0xbf61): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mqtt_handler':
+mongoose.c:(.text+0xbf7b): dangerous relocation: call8: call target out of range: calloc
+mongoose.c:(.text+0xbfaa): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0xbfcf): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_set_protocol_mqtt':
+mongoose.c:(.text+0xbffa): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_send_mqtt_handshake':
+mongoose.c:(.text+0xc02d): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_send_mqtt_handshake_opt':
+mongoose.c:(.text+0xc065): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc082): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc0ef): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc10e): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc12f): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc155): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc169): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc191): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc1b1): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc1d9): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc1f9): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc221): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_mqtt_prepend_header':
+mongoose.c:(.text+0xc317): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc343): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_mqtt_publish':
+mongoose.c:(.text+0xc3d7): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc40e): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_mqtt_next_subscribe_topic':
+mongoose.c:(.text+0xc4ff): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xc536): dangerous relocation: call8: call target out of range: strlen
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_dns_next_record':
+mongoose.c:(.text+0xc7b5): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0xc7ed): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_dns_insert_header':
+mongoose.c:(.text+0xc8a5): dangerous relocation: call8: call target out of range: strchr
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_dns_encode_record':
+mongoose.c:(.text+0xca6a): dangerous relocation: call8: call target out of range: calloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_send_dns_query':
+mongoose.c:(.text+0xcae5): dangerous relocation: call8: call target out of range: strlen
+mongoose.c:(.text+0xcb49): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_parse_dns_resource_record':
+mongoose.c:(.text+0xccae): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_dns_uncompress_name':
+mongoose.c:(.text+0xce65): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0xcf56): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_get_ip_address_of_nameserver':
+mongoose.c:(.text+0xd0a5): dangerous relocation: call8: call target out of range: fclose
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_resolve_from_hosts_file':
+mongoose.c:(.text+0xd15d): dangerous relocation: call8: call target out of range: strcmp
+mongoose.c:(.text+0xd1aa): dangerous relocation: call8: call target out of range: fclose
+mongoose.c:(.text+0xd1fd): dangerous relocation: call8: call target out of range: fclose
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_resolve_async_eh':
+mongoose.c:(.text+0xd2ef): dangerous relocation: call8: call target out of range: malloc
+mongoose.c:(.text+0xd335): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0xd347): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0xd3c7): dangerous relocation: call8: call target out of range: free
+mongoose.c:(.text+0xd3fd): dangerous relocation: call8: call target out of range: memset
+mongoose.c:(.text+0xd40d): dangerous relocation: call8: call target out of range: memcpy
+mongoose.c:(.text+0xd462): dangerous relocation: call8: call target out of range: calloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_resolve_async':
+mongoose.c:(.text+0xd47b): dangerous relocation: call8: call target out of range: strncpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_resolve_async_opt':
+mongoose.c:(.text+0xd4ed): dangerous relocation: call8: call target out of range: strncpy
+mongoose.c:(.text+0xd50d): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_tun_client_handler':
+mongoose.c:(.text+0xd889): dangerous relocation: call8: call target out of range: memset
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_tun_reconnect':
+mongoose.c:(.text+0xd9d7): dangerous relocation: call8: call target out of range: malloc
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_tun_create_client':
+mongoose.c:(.text+0xda60): dangerous relocation: call8: call target out of range: free
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_tun_destroy_client':
+mongoose.c:(.text+0xda95): dangerous relocation: call8: call target out of range: memcpy
+D:/Source/esp/webserver/build/mongoose\libmongoose.a(mongoose.o): In function `mg_tun_do_bind':
+mongoose.c:(.text+0xdb2a): dangerous relocation: call8: call target out of range: memcpy
+collect2.exe: error: ld returned 1 exit status
+make: *** [/d/Source/esp/esp-idf/make/project.mk:330: /d/Source/esp/webserver/build/webserver.elf] Fehler 1
